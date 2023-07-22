@@ -91,7 +91,7 @@
             dataTimeZone = data.city.timezone
 
             for (var i = 0; i < forecastCount; i++) {
-                var forecast = data.list[i];
+                var forecast = data.list[2*i];
 
                 forecastsCells[i].temp.innerHTML = tempType == "feelsLike" ? Math.round(forecast.main.feels_like) : Math.round(forecast.main.temp) + unitsSymbolHtml;
                 forecastsCells[i].icon.className = getIconClassName(forecast.weather[0], new Date(forecast.dt * 1000));

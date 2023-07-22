@@ -59,8 +59,8 @@ html.night {
 }
 
 #lastUpdate {
-    font-size: 35.4px;
-    font-size: 7rem;
+    font-size: 50px;
+    font-size: 9rem;
     position: absolute;
     bottom: 47%;
     left: 3.3%;
@@ -76,8 +76,8 @@ html.night {
 }
 
 #icon {
-    font-size: 250px;
-    font-size: 35rem;
+    font-size: 200px;
+    font-size: 30rem;
 }
 
 #iconWrapper {
@@ -173,8 +173,8 @@ html.night {
 }
 
 .landscape #lastUpdate {
-    font-size: 35.4px;
-    font-size: 7rem;
+    font-size: 50px;
+    font-size: 9rem;
 }
 
 .landscape #description {
