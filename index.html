@@ -193,7 +193,8 @@
             temp.innerHTML = tempType == "feelsLike" ? Math.round(data.main.feels_like) : Math.round(data.main.temp);
             city.innerHTML = data.name;
             description.innerHTML = data.weather[0].description;
-            lastUpdate.innerHTML = momentWithCorrectUtcOffset(new Date()).format(timeFormat) + "/" + momentWithCorrectUtcOffset(new Date(data.dt * 1000)).format(timeFormat);
+            lastUpdate.innerHTML = momentWithCorrectUtcOffset(new Date()).format(timeFormat) ;
+            //lastUpdate.innerHTML = momentWithCorrectUtcOffset(new Date()).format(timeFormat) + "/" + momentWithCorrectUtcOffset(new Date(data.dt * 1000)).format(timeFormat);
 
             date.innerHTML = momentWithCorrectUtcOffset(new Date()).format("dd, ll");
 
